@@ -49,4 +49,4 @@ def decoding(txt):
     return res
 
 print(f'Результат сжатия:  {coding(data)}')
-print(f'Результат восстновления: {decoding(coding(data))}')
+print(f'Результат восстановления: {decoding(coding(data))}')
